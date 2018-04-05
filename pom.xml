@@ -31,18 +31,18 @@
     
   </dependencies>
   
-  <distributionManagement>	
+  <distributionManagement>
     <repository>
-        <id>artifactory</id>
-        <name>mango</name>
+        <id>central</id>
+        <name>ALTEK-releases</name>
         <url>http://localhost:8081/artifactory/mango</url>
     </repository>
     <snapshotRepository>
-        <id>artifactory</id>
-        <name>mango</name>
+        <id>snapshots</id>
+        <name>ALTEK-snapshots</name>
         <url>http://localhost:8081/artifactory/mango</url>
     </snapshotRepository>
-  	</distributionManagement>
+</distributionManagement>
   <build>
     <finalName>mango</finalName>
   </build>
