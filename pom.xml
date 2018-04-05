@@ -19,10 +19,39 @@
     <artifactId>servlet-api</artifactId>
     <version>2.5</version>
     <scope>provided</scope>
+
+</dependency>
+
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.4.0.905</version>
+    <type>pom</type>
 </dependency>
     
   </dependencies>
+  
+  <distributionManagement>	
+    <repository>
+        <id>artifactory</id>
+        <name>mango</name>
+        <url>http://localhost:8081/artifactory/mango</url>
+    </repository>
+    <snapshotRepository>
+        <id>artifactory</id>
+        <name>mango</name>
+        <url>http://localhost:8081/artifactory/mango</url>
+    </snapshotRepository>
+  	</distributionManagement>
   <build>
     <finalName>mango</finalName>
   </build>
 </project>
+
+
+
+    
+    
+    
+    
+    
